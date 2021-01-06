@@ -1,0 +1,72 @@
+* {
+    /* border: 1px dotted lightblue;  */
+    padding: 1em;
+    margin: 1em;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    background-color: rgb(94, 146, 129);
+}
+
+img {
+    height: 30vh;
+    width: 30vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wholeLoco {
+    display: flex;
+    justify-content: center;
+}
+
+.mainLoco {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+  
+} 
+
+.loco {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.sidebar {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+   
+
+}
+
+.foot {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    text-align: center;
+}
+
+.mainFish {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    width: 65%;
+    padding-left: 2em;
+}
+
+h2 {
+    text-align: center;
+}
